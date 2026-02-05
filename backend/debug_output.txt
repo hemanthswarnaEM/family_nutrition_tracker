@@ -1,0 +1,14 @@
+﻿Checking Dashboard Data...
+Logged in as UserID: 2
+Full Initial Response: {
+  "error": "Missing Authorization header"
+}
+Initial Stats Type: undefined
+Initial Cals: 0
+Logging Food ID: 99...
+Log Result: 200
+Full Final Response: {
+  "error": "Missing Authorization header"
+}
+Final Cals: 0
+FAIL: Dashboard not updated.

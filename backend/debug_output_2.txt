@@ -1,0 +1,222 @@
+﻿Checking Dashboard Data...
+Logged in as UserID: 2
+Full Initial Response: {
+  "user_id": 2,
+  "date": "2026-02-01",
+  "total_grams_by_food": {
+    "99": 500
+  },
+  "nutrients": [
+    {
+      "code": "energy_kcal",
+      "name": "Energy",
+      "total_amount": 0,
+      "unit": "kcal",
+      "rda_target": 2200,
+      "custom_target": 2200,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "protein",
+      "name": "Protein",
+      "total_amount": 0,
+      "unit": "g",
+      "rda_target": 60,
+      "custom_target": 60,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "fat_total",
+      "name": "Total Fat",
+      "total_amount": 0,
+      "unit": "g",
+      "rda_target": 60,
+      "custom_target": 60,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "fiber",
+      "name": "Fiber",
+      "total_amount": 0,
+      "unit": "g",
+      "rda_target": 30,
+      "custom_target": 30,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "sodium",
+      "name": "Sodium",
+      "total_amount": 0,
+      "unit": "mg",
+      "rda_target": 1500,
+      "custom_target": 1500,
+      "upper_limit": 2300,
+      "source": "rda_profile"
+    },
+    {
+      "code": "calcium",
+      "name": "Calcium",
+      "total_amount": 0,
+      "unit": "mg",
+      "rda_target": 1000,
+      "custom_target": 1000,
+      "upper_limit": 2500,
+      "source": "rda_profile"
+    },
+    {
+      "code": "iron",
+      "name": "Iron",
+      "total_amount": 0,
+      "unit": "mg",
+      "rda_target": 8,
+      "custom_target": 8,
+      "upper_limit": 45,
+      "source": "rda_profile"
+    },
+    {
+      "code": "potassium",
+      "name": "Potassium",
+      "total_amount": 0,
+      "unit": "mg",
+      "rda_target": 3400,
+      "custom_target": 3400,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "vit_d",
+      "name": "Vitamin D",
+      "total_amount": 0,
+      "unit": "mcg",
+      "rda_target": 15,
+      "custom_target": 15,
+      "upper_limit": 100,
+      "source": "rda_profile"
+    }
+  ],
+  "missing_foods": [
+    {
+      "id": 99,
+      "name": "Black pepper"
+    }
+  ],
+  "rda_profile_used": "male_51_60_standard",
+  "calculated_targets": false
+}
+Initial Stats Type: Array
+Initial Cals: 0
+Logging Food ID: 99...
+Log Result: 200
+Full Final Response: {
+  "user_id": 2,
+  "date": "2026-02-01",
+  "total_grams_by_food": {
+    "99": 600
+  },
+  "nutrients": [
+    {
+      "code": "energy_kcal",
+      "name": "Energy",
+      "total_amount": 0,
+      "unit": "kcal",
+      "rda_target": 2200,
+      "custom_target": 2200,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "protein",
+      "name": "Protein",
+      "total_amount": 0,
+      "unit": "g",
+      "rda_target": 60,
+      "custom_target": 60,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "fat_total",
+      "name": "Total Fat",
+      "total_amount": 0,
+      "unit": "g",
+      "rda_target": 60,
+      "custom_target": 60,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "fiber",
+      "name": "Fiber",
+      "total_amount": 0,
+      "unit": "g",
+      "rda_target": 30,
+      "custom_target": 30,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "sodium",
+      "name": "Sodium",
+      "total_amount": 0,
+      "unit": "mg",
+      "rda_target": 1500,
+      "custom_target": 1500,
+      "upper_limit": 2300,
+      "source": "rda_profile"
+    },
+    {
+      "code": "calcium",
+      "name": "Calcium",
+      "total_amount": 0,
+      "unit": "mg",
+      "rda_target": 1000,
+      "custom_target": 1000,
+      "upper_limit": 2500,
+      "source": "rda_profile"
+    },
+    {
+      "code": "iron",
+      "name": "Iron",
+      "total_amount": 0,
+      "unit": "mg",
+      "rda_target": 8,
+      "custom_target": 8,
+      "upper_limit": 45,
+      "source": "rda_profile"
+    },
+    {
+      "code": "potassium",
+      "name": "Potassium",
+      "total_amount": 0,
+      "unit": "mg",
+      "rda_target": 3400,
+      "custom_target": 3400,
+      "upper_limit": null,
+      "source": "rda_profile"
+    },
+    {
+      "code": "vit_d",
+      "name": "Vitamin D",
+      "total_amount": 0,
+      "unit": "mcg",
+      "rda_target": 15,
+      "custom_target": 15,
+      "upper_limit": 100,
+      "source": "rda_profile"
+    }
+  ],
+  "missing_foods": [
+    {
+      "id": 99,
+      "name": "Black pepper"
+    }
+  ],
+  "rda_profile_used": "male_51_60_standard",
+  "calculated_targets": false
+}
+Final Cals: 0
+FAIL: Dashboard not updated.
