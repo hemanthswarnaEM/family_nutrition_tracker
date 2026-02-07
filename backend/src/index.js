@@ -85,7 +85,7 @@ app.use(cors({
     "http://localhost:3000",
     "http://localhost:4000",
     "https://family-nutrition-tracker.netlify.app", // Keep your placeholder
-    "https://celadon-sawine-0b98e2.netlify.app"    // ADD YOUR ACTUAL NETLIFY URL HERE
+    "https://keerthipandi.netlify.app"    // ADD YOUR ACTUAL NETLIFY URL HERE
   ],
   credentials: true
 }));
