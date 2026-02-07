@@ -79,17 +79,23 @@ async function findOrEstimateFood(query, existingFoods) {
   }
 }
 
-const app = express();
+// --- MIDDLEWARE & CORS ---
 app.use(cors({
   origin: [
     "http://localhost:3000",
     "http://localhost:4000",
-    process.env.FRONTEND_URL, // Allow generic frontend URL env var
-    "https://family-nutrition-tracker.netlify.app" // Placeholder for Netlify
+    "https://family-nutrition-tracker.netlify.app", // Keep your placeholder
+    "https://celadon-sawine-0b98e2.netlify.app"    // ADD YOUR ACTUAL NETLIFY URL HERE
   ],
   credentials: true
 }));
+
 app.use(express.json());
+
+// Fix "Cannot GET /" by adding this root route
+app.get('/', (req, res) => {
+  res.json({ message: "Family Nutrition Tracker API is live!", status: "healthy" });
+});
 
 // --- AI SETUP ---
 let genAI;
